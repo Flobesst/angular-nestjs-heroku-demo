@@ -12,8 +12,8 @@ export class UserService {
       new User(2, 'Kate'),
       new User(3, 'Locke'),
       new User(4, 'Benjamin'),
-      new User(5, 'Walt')
-    )
+      new User(5, 'Walt'),
+    );
   }
 
   findAll(): Promise<User[]> {
